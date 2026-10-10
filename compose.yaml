@@ -1,0 +1,8 @@
+services:
+  trustai:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      TRUSTAI_ENV: development
+      TRUSTAI_LOG_LEVEL: INFO

@@ -1,0 +1,20 @@
+{
+  "name": "demo-math",
+  "description": "Small sample dataset for offline evaluation exercises.",
+  "cases": [
+    {
+      "case_id": "case-1",
+      "input": "What is 2 + 2?",
+      "reference_answer": "4",
+      "expected_behavior": "Answer with the numeric value.",
+      "tags": ["math"]
+    },
+    {
+      "case_id": "case-2",
+      "input": "What is the capital of France?",
+      "reference_answer": "Paris",
+      "expected_behavior": "Return the capital city.",
+      "tags": ["geography"]
+    }
+  ]
+}
